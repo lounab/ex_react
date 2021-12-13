@@ -9,7 +9,7 @@ export default function Card(props){
             <div></div>
             <p>{props.desc}</p>
             <h4>{props.price} euro</h4>
-            <button>Achetez !</button>
+            <button onClick={() => console.log(props)}>Achetez !</button>
         </div>
     )
 }

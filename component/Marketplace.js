@@ -12,8 +12,8 @@ const [user, setUser] = useState(null);
                 <Card title="Titre 1" desc="blablabla" price="30"/>
                 <Card title="Titre 2" desc="pixpixpxi" price="700"/>
                 <Card title="Titre 3" desc="poufpouf" price="5"/>
-                <Card title="Titre 2" desc="pixpixpxi" price="700"/>
-                <Card title="Titre 3" desc="poufpouf" price="5"/>
+                <Card title="Titre 4" desc="cooool" price="600"/>
+                <Card title="Titre 5" desc="ouaaaa" price="50"/>
             </div>
         </div>
     )
