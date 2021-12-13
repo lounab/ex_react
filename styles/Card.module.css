@@ -1,0 +1,30 @@
+.card_produit{
+    width: 65%;
+    padding: 30px 0px;
+    background-color: white;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border : 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-left : auto;
+    margin-right: auto;
+}
+
+.card_produit button{
+    background-color: transparent;
+    border : 0.5px solid #666666;
+    border-radius: 20px;
+    padding : 8px 30px;
+} 
+
+.card_produit button:hover{
+    background-color: rgba(0, 0, 255, .2);
+    border : 0.5px solid white;
+} 
+
+.card_produit div{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 0, 255, .2);
+    margin: auto;
+}

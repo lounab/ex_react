@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../component/Navbar'
 import styles from '../styles/App.module.css'
+import Marketplace from '../component/Marketplace'
+
 
 export default function Home() {
   return (
@@ -12,8 +14,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className={styles.container}>
         <Navbar/>
+        
+        <Marketplace/>
       </main>
     </div>
   )

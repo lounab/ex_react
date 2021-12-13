@@ -2,13 +2,23 @@ import react, { useState, useEffect } from "react"
 import styles from '../styles/Navbar.module.css'
 
 export default function Navbar() {
+const [user, setUser] = useState(null);
 
     return (
         <div className={styles.navcontainer}>
-            <p>toto</p>
-            <p>tata</p>
-            <p>titi</p>
-            
+            <h3>NFT Marketplace</h3>
+            <p>Menu</p>
+            <div>
+                { user ? (
+                    <button>
+                        Logout
+                    </button>
+                ) : (
+                    <button>
+                        Login
+                    </button>
+                )}
+            </div>
         </div>
     )
 }
