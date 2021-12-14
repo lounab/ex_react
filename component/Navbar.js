@@ -7,7 +7,9 @@ const [user, setUser] = useState(null);
     return (
         <div className={styles.navcontainer}>
             <h3>NFT Marketplace</h3>
+
             <p>Menu</p>
+            
             <div>
                 { user ? (
                     <button>

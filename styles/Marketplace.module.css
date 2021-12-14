@@ -7,6 +7,18 @@
     margin-right: auto;
 }   
 
+@media screen and (max-width: 1290px) {
+    .marketcontainer{
+        grid-template-columns: auto auto;
+    } 
+}
+
+@media screen and (max-width: 850px) {
+    .marketcontainer{
+        grid-template-columns: auto;
+    } 
+}
+
 .titre{
     text-align: center;
     margin-top: 80px;

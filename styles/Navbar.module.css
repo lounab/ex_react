@@ -17,6 +17,6 @@
 }
 
 .navcontainer button:hover{
-    color: white;
-    border-color: white;
+    border-color: rgba(0, 0, 255, .1);
+    background-color: rgba(0, 0, 255, .2);
 }
