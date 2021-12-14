@@ -5,6 +5,7 @@
     justify-content: space-around;
     border-bottom: 2px solid #666666;
     background-color: rgba(0, 0, 255, .2);
+    margin-bottom: 40px;
 }
 
 .navcontainer button{

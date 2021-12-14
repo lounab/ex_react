@@ -8,17 +8,11 @@ const [user, setUser] = useState(null);
     return (
         <div >
             <h2 className={styles.titre}>Marketplace</h2>
+            <h4>Trouvez votre chat :</h4>
             <div className={styles.marketcontainer}>
-                <Card title="Album 1" desc="blablabla" price="30"/>
-                <Card title="Album 2" desc="pixpixpxi" price="70"/>
-                <Card title="Album 3" desc="poufpouf" price="5"/>
-            </div>
-
-            <h2 className={styles.titre}>Favoris</h2>
-            <div className={styles.marketcontainer}>
-                <Card title="Album 4" desc="incriyable" price="15"/>
-                <Card title="Album 5" desc="nouveau style jamais vu" price="17"/>
-                <Card title="Album 6" desc="woaw" price="35"/>
+                <Card title="Speedy" desc="Incroyable matou" price="15O" img="https://images.unsplash.com/photo-1574158622682-e40e69881006?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2F0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"/>
+                <Card title="Maneïa" desc="Chat poil long noir et blanc, aime les autres animaux" price="170" img="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"/>
+                <Card title="Blanche neige" desc="Chat très calme" price="135" img="https://images.unsplash.com/photo-1606214174585-fe31582dc6ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGNhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"/>
             </div>
         </div>
     )

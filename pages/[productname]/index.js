@@ -26,9 +26,9 @@ export default function Home() {
       <main className={styles.container}>
         <Navbar/>
         
-        <h2 className={styles.titre}>Votre produit</h2>
+        <h2 className={styles.titre}>Votre futur chat ?</h2>
           { maCard && (
-          <Card title={maCard.title} desc={maCard.desc} price={maCard.price} />
+          <Card title={maCard.title} desc={maCard.desc} price={maCard.price} img={maCard.img}/>
           ) 
           }
       </main>
